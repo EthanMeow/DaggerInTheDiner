@@ -609,7 +609,7 @@ GameObject:
   - component: {fileID: 162641720}
   - component: {fileID: 162641719}
   m_Layer: 5
-  m_Name: AyeshaImage
+  m_Name: GabImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -654,7 +654,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7688485618132878820, guid: 6945d1681a066a543ba70dbdbb02ee05, type: 3}
+  m_Sprite: {fileID: -6065889426917823009, guid: 929560a85bbcc994999a4d4c59007255, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2881,7 +2881,7 @@ GameObject:
   - component: {fileID: 1173292073}
   - component: {fileID: 1173292072}
   m_Layer: 5
-  m_Name: AyeshaText
+  m_Name: GabText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2926,7 +2926,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ayesha has an alibi. It cant be her.
+  m_text: Gab was taking selfies, I dont think he could have done it!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8dd6532757b76a94c802f3845eac642e, type: 2}
   m_sharedMaterial: {fileID: 6436186044993931291, guid: 8dd6532757b76a94c802f3845eac642e, type: 2}

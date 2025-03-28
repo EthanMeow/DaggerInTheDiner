@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 673b30a4958ce0641a6abebecc55d1f7
+guid: d84ef913dc47c054584730872e8ca7af
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7741332083515252642
-    second: CiggyUI 1_0
+      213: -2793561579557607744
+    second: RachelUI_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CiggyUI 1_0
+      name: RachelUI_0
       rect:
         serializedVersion: 2
         x: 6
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e502db14c73419490800000000000000
-      internalID: -7741332083515252642
+      spriteID: 0c62a485b864b39d0800000000000000
+      internalID: -2793561579557607744
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CiggyUI 1_0: -7741332083515252642
+      RachelUI_0: -2793561579557607744
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
