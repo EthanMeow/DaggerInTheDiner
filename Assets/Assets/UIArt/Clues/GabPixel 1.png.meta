@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GabPixel 1_0: -6065889426917823009
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

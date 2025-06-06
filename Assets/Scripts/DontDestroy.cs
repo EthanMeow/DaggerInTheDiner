@@ -2,38 +2,30 @@ using UnityEngine;
 
 public class PersistentCanvas : MonoBehaviour
 {
-    private static PersistentCanvas instance;
-    private string saveKey; // Unique key to store the active state
+    private string saveKey;
 
     private void Awake()
     {
-        // Ensure only one instance exists
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject); // Prevent destruction between scenes
-        }
-        else
-        {
-            Destroy(gameObject); // Destroy duplicate instances
-            return;
-        }
+        DontDestroyOnLoad(gameObject);
 
-        // Generate a unique key based on the canvas name
         saveKey = "PersistentCanvas_" + gameObject.name;
 
-        // Ensure the canvas is enabled initially in editor
         if (!Application.isPlaying)
         {
-            gameObject.SetActive(true); // Force it to be active when starting the scene in editor
+            gameObject.SetActive(true);
         }
         else
         {
-            // In play mode, restore state
             if (PlayerPrefs.HasKey(saveKey))
             {
                 bool wasActive = PlayerPrefs.GetInt(saveKey) == 1;
+                Debug.Log($"{gameObject.name} restoring active state to: {wasActive}");
                 gameObject.SetActive(wasActive);
+            }
+            else
+            {
+                Debug.Log($"{gameObject.name} no saved active state found, setting active.");
+                gameObject.SetActive(true);
             }
         }
     }
